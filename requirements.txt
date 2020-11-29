@@ -1,0 +1,7 @@
+python-dotenv
+pymystem3
+pandas
+gensim
+streamlit
+googlemaps
+xlrd
