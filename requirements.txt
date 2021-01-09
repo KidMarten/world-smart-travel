@@ -4,4 +4,4 @@ pandas
 gensim
 streamlit
 googlemaps
-xlrd
+openpyxl

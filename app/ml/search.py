@@ -32,8 +32,8 @@ zanzibar_doc2vec = gensim.models.doc2vec.Doc2Vec.load(data_path + 'zanzibar/doc2
 maldives_doc2vec = gensim.models.doc2vec.Doc2Vec.load(data_path + 'maldives/doc2vec/model.doc2vec')
 
 # Dataset for reference
-zanz_data = pd.read_excel(data_path + 'zanzibar/data.xlsx')
-mald_data = pd.read_excel(data_path + 'maldives/data.xlsx')
+zanz_data = pd.read_excel(data_path + 'zanzibar/data.xlsx', engine='openpyxl')
+mald_data = pd.read_excel(data_path + 'maldives/data.xlsx', engine='openpyxl')
 
 normalizer = TextNormalizer()
 
